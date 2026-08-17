@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int base = 8;
+    float altura =  3.14;
+    cout << "A área do quadrado é: " << (base/2)*(altura*altura) << endl;
+
+    return 0;
+}
