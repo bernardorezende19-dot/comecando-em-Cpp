@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+int num1, num2, soma, sub, mult, div;
+
+    cout << "Seja bem-vindo a nossa calculadora!" << endl;
+    cout << "Digite o primeiro número:"<< endl;
+    cout << "Digite o segundo número:"<< endl;
+    cin >> num1 >> num2;
+
+    soma = num1 + num2;
+    sub = num1 - num2;
+    mult = num1 * num2;
+    div = num1 / num2;
+
+    cout << "A soma dos números é: " << soma << endl;
+    cout << "A subtração dos números é: " << sub << endl;
+    cout << "A multiplicação dos números é: " << mult << endl;
+    cout << "A divisão dos números é: " << div << endl;
+
+return 0;
+}
