@@ -3,7 +3,7 @@ using namespace std;
 int main() {
     char i = 's';
     while (i == 's'|| i == 'S') {
-    cout << "digite um npumero correspondente a sua doação" << endl;
+    cout << "digite um numero correspondente a sua doação" << endl;
     int num;
     cin >> num;
 
